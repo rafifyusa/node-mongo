@@ -1,0 +1,17 @@
+{
+  "name": "nodemongo",
+  "version": "1.0.0",
+  "description": "connect node with mongo",
+  "main": "app.js",
+  "scripts": {
+    "test": "no",
+    "start" : "nodemon ./app.js"
+  },
+  "author": "hehe",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.19"
+  }
+}
